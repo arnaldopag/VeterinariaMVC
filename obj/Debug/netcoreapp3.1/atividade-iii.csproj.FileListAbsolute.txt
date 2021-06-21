@@ -36,3 +36,4 @@ C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-iii\obj\Debug\n
 C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-iii\obj\Debug\netcoreapp3.1\atividade-iii.csproj.CopyComplete
 C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-iii\obj\Debug\netcoreapp3.1\Razor\Views\Home\Agendamento.cshtml.g.cs
 C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-iii\obj\Debug\netcoreapp3.1\Razor\Views\Home\Servicos.cshtml.g.cs
+C:\Users\dinhu\OneDrive\Documentos\cursoSenac\modulo03\atividade-iii\obj\Debug\netcoreapp3.1\Razor\Views\Home\Mostrar.cshtml.g.cs

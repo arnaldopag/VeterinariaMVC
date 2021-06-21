@@ -1,33 +1,31 @@
+@using atividade_iii.Models
+@model Agendamento
+
 <h2>Pré-Agendamento</h2>
 
-<form>
+<form asp-action="Mostrar" method="POST">
     <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Nome">
+        <label asp-for="nome">Nome:</label>
+        <input asp-for="nome" placeholder="Nome" />
     </div>
     <div>
-        <label for="tel">Telefone:</label>
-        <input type="tel" id="" placeholder="Telefone">
+        <label asp-for="telefone">Telefone:</label>
+        <input asp-for="telefone" />
     </div>
     <div>
-        <label for="data">Data:</label>
-        <input type="date" id="data">
+        <label asp-for="data">Data:</label>
+        <input asp-for="data">
     </div>
     <div>
-        <label for="animais">Selecione o animal:</label>
-        <input list="animais" />
-        <datalist id="animais">
-            <option>Cachorro</option>
-            <option>Gato</option>
-            <option>Galinha</option>
-            <option>Porco</option>
-            <option>Cavalo</option>
-            <option>Coelho</option>
-        </datalist>
+        <label asp-for="animais">Selecione o animal:</label>
+        <input asp-for="animais" type="radio" value="Gato" />Gato
+        <input asp-for="animais" type="radio" value="Cachorro" />Cachorro
+        <input asp-for="animais" type="radio" value="Rato" />Rato
+        <input asp-for="animais" type="radio" value="Coelho" />Passaro   
     </div>
     <div>
-        <label for="need">Necessidade:</label>
-        <textarea id="need" name="need" cols="30" rows="10"></textarea>
+        <label asp-for="necessidade">Necessidade:</label>
+        <textarea asp-for="necessidade" cols="30" rows="10"></textarea>
     </div>
-    <input type="submit" value="ENVIAR" />
+    <input type="submit" value="Enviar" />
 </form>

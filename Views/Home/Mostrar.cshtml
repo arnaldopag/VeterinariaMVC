@@ -1,0 +1,28 @@
+@using atividade_iii.Models
+@model List<Agendamento>
+
+
+<h2>Agendamento Confirmado</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Data</th>
+            <th>Animal</th>
+            <th>Necessidade</th>
+        </tr>
+    <tbody>
+        @foreach (Agendamento u in Model)
+            {
+            <tr>
+                <td>@u.nome</td>
+                <td>@u.telefone</td>
+                <td>@u.data</td>
+                <td>@u.animais</td>
+                <td>@u.necessidade</td>
+            </tr>
+            }
+    </tbody>
+    </thead>    
+</table>
